@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="250dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:background="@drawable/phone">
+
+    <ImageView
+        android:id="@+id/iv_weather"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/partly_cloudy"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/tv_tem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        tools:text="31°C"
+        android:textColor="@color/white"></TextView>
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="陰轉多雲"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="(2022-07-16星期六)"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_tem_low_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="25°C~33°C"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="南風3~4級"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv_air"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        tools:text="空氣:53良\n空氣好，可以外出"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"></TextView>
+
+</LinearLayout>
